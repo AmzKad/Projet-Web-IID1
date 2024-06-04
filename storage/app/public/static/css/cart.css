@@ -1,0 +1,125 @@
+.btnregis{
+  background-color:black ;
+  width:250px;
+  color: rgb(251, 251, 251);
+  border-color: rgb(3, 3, 3);
+  font-size: 20px; /* Réduire la taille du bouton de 20% */
+  align-items: center;}
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
+  
+  .navContainer {
+    background-color:rgba(85, 85, 85, 0.05); 
+    z-index: 10;
+}
+.navContainer:hover{
+    background-color:rgba(85, 85, 85, 0.5); 
+    box-shadow: 0 0 20px 2px rgba(58, 58, 60, 0.3);
+}
+.py-6 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+.logo:hover{
+    transition: all 0.3s;
+    color: #25A8E0;
+}
+.navChoix{
+    font-size: 15px;
+    color: #F1F1F1;
+    font-family: 'Poppins', sans-serif;
+    gap: 8px;
+    transition: all 0.3s;
+}
+.navChoix:hover{
+    color: #25A8E0;
+}
+.navChoix ion-icon {
+    font-size: 20px;
+    color: #25A8E0;
+}
+
+.NavIcon{
+    width: 30px;
+    transition: all 0.3s;
+}
+.NavIcon:hover{
+    color: #25A8E0;
+}
+
+    body {
+      background-color: black;
+      color: rgb(10, 10, 10);
+      font-weight:bolder;
+      font-size: 16px;
+    }
+    .social-icon {
+      font-size: 24px; /* Réduire la taille de l'icône de 20% */
+      color: white; /* Définir la couleur de l'icône en blanc */
+      margin-left: 8px; /* Réduire la marge de 20% */
+    }
+    .login-container {
+      margin-top: 40px; /* Réduire la marge supérieure de 20% */
+      border: 2px solid rgb(69, 216, 253); /* Ajout d'une bordure */
+      border-radius: 8px; /* Réduire le rayon de la bordure de 20% */
+      padding-left: 24px; /* Réduire le padding gauche de 20% */
+      padding-right: 24px; /* Réduire le padding droit de 20% */
+    }
+
+    /* Ajuster la couleur des icônes Font Awesome */
+    .fab {
+      color: white;
+    }
+    .image-upload-section {
+      text-align: center;
+      margin-bottom: 0px;
+    }
+    .profile-image {
+      width: 136px; /* Réduire la largeur de l'image de 20% */
+      height: 120px; /* Réduire la hauteur de l'image de 20% */
+      border-radius: 40%; /* Réduire le rayon de l'image de 20% */
+      background-image: url("profile.jpeg"); /* Placeholder background color */
+      background-position:center;
+      background-size: auto;
+      margin: auto;
+      margin-bottom: 0px;
+      margin-top: 0px; /* Add space below the image */
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    textarea {
+      font-size: 16px; /* Réduire la taille de la police de 20% */
+      padding: 8px; /* Réduire le padding de 20% */
+    }
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  
+  .bg-grey {
+  background-color: #eae8e8;
+  }
+  
+  @media (min-width: 992px) {
+  .card-registration-2 .bg-grey {
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  }
+  }
+  
+  @media (max-width: 991px) {
+  .card-registration-2 .bg-grey {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  }
+  }
